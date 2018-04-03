@@ -1,0 +1,2 @@
+-C configtrain.txt -T 20 -m 1 -M hinitoutput VOI arctic_a0001.mfc
+

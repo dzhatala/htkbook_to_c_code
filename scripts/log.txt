@@ -1,0 +1,46 @@
+../../neural_network_shmm/htk_35/HTKTools/HInit -C configtrain.txt -T 3 -m 1 -M hinitoutput VOI arctic_a0001.mfc
+Initialising  HMM VOI . . . 
+ States   :   2  3  4 (width)
+ Mixes  s1:   1  1  1 ( 39  )
+ Num Using:   0  0  0
+ Parm Kind:  MFCC_D_A_Z_0
+ Number of owners = 1
+ SegLab   :  NONE
+ maxIter  :  20
+ epsilon  :  0.000100
+ minSeg   :  1
+ Updating :  Means Variances MixWeights/DProbs TransProbs
+
+ - system is PLAIN
+ 322 observations loaded from arctic_a0001.mfc
+1 Observation Sequences Loaded
+Starting Estimation Process
+Iteration 1: Average LogP =-29415.41797
+Iteration 2: Average LogP =-29252.76953  Change =   162.64844
+Iteration 3: Average LogP =-29247.36133  Change =     5.40820
+Iteration 4: Average LogP =-29247.36133  Change =     0.00000
+Estimation converged at iteration 5
+Output written to directory hinitoutput
+../../neural_network_shmm/htk_35/HTKTools/HInit -C configtrain.txt -T 3 -m 1 -M hinitoutput UNV arctic_a0001.mfc
+Initialising  HMM UNV . . . 
+ States   :   2  3  4 (width)
+ Mixes  s1:   1  1  1 ( 39  )
+ Num Using:   0  0  0
+ Parm Kind:  MFCC_D_A_Z_0
+ Number of owners = 1
+ SegLab   :  NONE
+ maxIter  :  20
+ epsilon  :  0.000100
+ minSeg   :  1
+ Updating :  Means Variances MixWeights/DProbs TransProbs
+
+ - system is PLAIN
+ 322 observations loaded from arctic_a0001.mfc
+1 Observation Sequences Loaded
+Starting Estimation Process
+Iteration 1: Average LogP =-29415.41797
+Iteration 2: Average LogP =-29252.76953  Change =   162.64844
+Iteration 3: Average LogP =-29247.36133  Change =     5.40820
+Iteration 4: Average LogP =-29247.36133  Change =     0.00000
+Estimation converged at iteration 5
+Output written to directory hinitoutput
