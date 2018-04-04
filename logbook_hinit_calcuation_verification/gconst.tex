@@ -1,0 +1,48 @@
+\documentclass{article}
+
+\usepackage{amsmath}
+
+\begin{document}
+
+\begin{align*}
+f(x)=\prod_i\left(\frac{1}{\sigma_i\sqrt{2\pi}}e^{-\frac{(x-\mu_i)^2}{2\sigma_i^2}}\right)
+\end{align*}
+\begin{align*}
+   =\prod_i\left(\frac{1}{\sqrt{2\pi\sigma_i^2}}e^{-\frac{(x-\mu_i)^2}{2\sigma_i^2}}\right)
+\end{align*}
+\begin{align*}
+log\left(f(x)\right)  =log\left(\prod_i	\frac{1}{\sqrt{2\pi\sigma_i^2}}\right)-{\frac{(x-\mu_i)^2}{2\sigma_i^2}}
+\end{align*}
+\begin{align*}
+      =-\frac{1}{2}\left(nlog(2\pi)+\sum_ilog(\sigma_i^2)\right)-{\sum_i\frac{(x-\mu_i)^2}{2\sigma_i^2}}
+\end{align*}
+\begin{align*}
+      =-\frac{1}{2}G_{const}-{\sum_i\frac{(x-\mu_i)^2}{2\sigma_i^2}}
+\end{align*}
+\begin{align*}
+      =-\frac{1}{2}G_{const}-{\frac{1}{2}\sum_i{\frac{(x-\mu_i)^2}{\sigma_i^2}}}
+\end{align*}
+\begin{align*}
+G_{const} =nlog(2\pi)+\sum_ilog(\sigma_i^2)
+\end{align*}
+
+\begin{align*}
+E=\sum_{n=1}^{n} \lvert \lvert {  g  \left( x_n \right)   -  d  \left( x_n \right)  } \rvert \rvert
+\end{align*}
+
+\begin{align*}
+d  \left( x_n \right) = \left( {d_1 \left( x_n \right),...,d_K \left( x_n \right)}  \right)^t
+\end{align*}
+
+
+\begin{align*}
+g  \left( x_n \right) = \left( {g_1 \left( x_n \right),...,g_K \left( x_n \right)}  \right)^t
+\end{align*}
+
+
+\begin{align*}
+K       N
+\end{align*}
+
+
+\end{document}
