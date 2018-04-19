@@ -1,4 +1,4 @@
-../../neural_network_shmm/htk_35/HTKTools/HInit -C configtrain.txt -T 20 -m 1 -M hinitoutput VOI arctic_a0001.mfc
+    ../../neural_network_shmm/htk_35/HTKTools/HInit -C configtrain.txt -T 20 -m 1 -M hinitoutput VOI arctic_a0001.mfc
 Initialising  HMM VOI . . . 
  States   :   2  3  4 (width)
  Mixes  s1:   1  1  1 ( 39  )
